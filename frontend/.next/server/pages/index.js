@@ -1,0 +1,76 @@
+"use strict";
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+(() => {
+var exports = {};
+exports.id = "pages/index";
+exports.ids = ["pages/index"];
+exports.modules = {
+
+/***/ "./src/components/Cronometro.tsx":
+/*!***************************************!*\
+  !*** ./src/components/Cronometro.tsx ***!
+  \***************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Cronometro\": () => (/* binding */ Cronometro)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ \"react\");\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);\n\n\nfunction Cronometro() {\n    const { 0: tempo , 1: setTempo  } = (0,react__WEBPACK_IMPORTED_MODULE_1__.useState)(0);\n    const segundos = tempo % 60;\n    const minutos = Math.floor(tempo / 60);\n    (0,react__WEBPACK_IMPORTED_MODULE_1__.useEffect)(()=>{\n        setTimeout(()=>{\n            setTempo(tempo + 1);\n        }, 1000);\n    });\n    const [minutoUm, minutoDois] = String(minutos).padStart(2, \"0\").split(\" \");\n    const [segundoUm, segundoDois] = String(segundos).padStart(2, \"0\").split(\" \");\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                        children: minutoUm\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\components\\\\Cronometro.tsx\",\n                        lineNumber: 24,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                        children: minutoDois\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\components\\\\Cronometro.tsx\",\n                        lineNumber: 25,\n                        columnNumber: 17\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\components\\\\Cronometro.tsx\",\n                lineNumber: 23,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                children: \":\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\components\\\\Cronometro.tsx\",\n                lineNumber: 27,\n                columnNumber: 13\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n                children: [\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                        children: segundoUm\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\components\\\\Cronometro.tsx\",\n                        lineNumber: 29,\n                        columnNumber: 17\n                    }, this),\n                    /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"span\", {\n                        children: segundoDois\n                    }, void 0, false, {\n                        fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\components\\\\Cronometro.tsx\",\n                        lineNumber: 30,\n                        columnNumber: 17\n                    }, this)\n                ]\n            }, void 0, true, {\n                fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\components\\\\Cronometro.tsx\",\n                lineNumber: 28,\n                columnNumber: 13\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\components\\\\Cronometro.tsx\",\n        lineNumber: 22,\n        columnNumber: 9\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9Dcm9ub21ldHJvLnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7OztBQUFBO0FBQzRDO0FBRXJDLFNBQVNFLFVBQVUsR0FBRztJQUV6QixNQUFNLEVBTFYsR0FLV0MsS0FBSyxHQUxoQixHQUtrQkMsUUFBUSxNQUFJSCwrQ0FBUSxDQUFDLENBQUMsQ0FBQztJQUVyQyxNQUFNSSxRQUFRLEdBQUdGLEtBQUssR0FBRyxFQUFFO0lBQzNCLE1BQU1HLE9BQU8sR0FBR0MsSUFBSSxDQUFDQyxLQUFLLENBQUNMLEtBQUssR0FBQyxFQUFFLENBQUM7SUFFcENILGdEQUFTLENBQUMsSUFBTTtRQUNaUyxVQUFVLENBQUMsSUFBTTtZQUNiTCxRQUFRLENBQUNELEtBQUssR0FBRyxDQUFDLENBQUMsQ0FBQztTQUN2QixFQUFFLElBQUksQ0FBQztLQUNYLENBQUMsQ0FBQztJQUVILE1BQU0sQ0FBQ08sUUFBUSxFQUFFQyxVQUFVLENBQUMsR0FBR0MsTUFBTSxDQUFDTixPQUFPLENBQUMsQ0FBQ08sUUFBUSxDQUFDLENBQUMsRUFBRSxHQUFHLENBQUMsQ0FBQ0MsS0FBSyxDQUFDLEdBQUcsQ0FBQztJQUMxRSxNQUFNLENBQUNDLFNBQVMsRUFBRUMsV0FBVyxDQUFDLEdBQUdKLE1BQU0sQ0FBQ1AsUUFBUSxDQUFDLENBQUNRLFFBQVEsQ0FBQyxDQUFDLEVBQUUsR0FBRyxDQUFDLENBQUNDLEtBQUssQ0FBQyxHQUFHLENBQUM7SUFHN0UscUJBQ0ksOERBQUNHLEtBQUc7OzBCQUNBLDhEQUFDQSxLQUFHOztrQ0FDQSw4REFBQ0MsTUFBSTtrQ0FBRVIsUUFBUTs7Ozs7NEJBQVE7a0NBQ3ZCLDhEQUFDUSxNQUFJO2tDQUFFUCxVQUFVOzs7Ozs0QkFBUTs7Ozs7O29CQUN2QjswQkFDTiw4REFBQ08sTUFBSTswQkFBQyxHQUFDOzs7OztvQkFBTzswQkFDZCw4REFBQ0QsS0FBRzs7a0NBQ0EsOERBQUNDLE1BQUk7a0NBQUVILFNBQVM7Ozs7OzRCQUFRO2tDQUN4Qiw4REFBQ0csTUFBSTtrQ0FBRUYsV0FBVzs7Ozs7NEJBQVE7Ozs7OztvQkFDeEI7Ozs7OztZQUNKLENBQ1I7Q0FDTCIsInNvdXJjZXMiOlsid2VicGFjazovL2Zyb250ZW5kLy4vc3JjL2NvbXBvbmVudHMvQ3Jvbm9tZXRyby50c3g/MWUwNiJdLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyB0aW1lIH0gZnJvbSBcImNvbnNvbGVcIjtcclxuaW1wb3J0IHsgdXNlRWZmZWN0LCB1c2VTdGF0ZSB9IGZyb20gXCJyZWFjdFwiO1xyXG5cclxuZXhwb3J0IGZ1bmN0aW9uIENyb25vbWV0cm8oKSB7XHJcblxyXG4gICAgY29uc3QgW3RlbXBvLCBzZXRUZW1wb10gPSB1c2VTdGF0ZSgwKTtcclxuXHJcbiAgICBjb25zdCBzZWd1bmRvcyA9IHRlbXBvICUgNjA7XHJcbiAgICBjb25zdCBtaW51dG9zID0gTWF0aC5mbG9vcih0ZW1wby82MClcclxuXHJcbiAgICB1c2VFZmZlY3QoKCkgPT4ge1xyXG4gICAgICAgIHNldFRpbWVvdXQoKCkgPT4ge1xyXG4gICAgICAgICAgICBzZXRUZW1wbyh0ZW1wbyArIDEpO1xyXG4gICAgICAgIH0sIDEwMDApXHJcbiAgICB9KTtcclxuXHJcbiAgICBjb25zdCBbbWludXRvVW0sIG1pbnV0b0RvaXNdID0gU3RyaW5nKG1pbnV0b3MpLnBhZFN0YXJ0KDIsICcwJykuc3BsaXQoJyAnKTtcclxuICAgIGNvbnN0IFtzZWd1bmRvVW0sIHNlZ3VuZG9Eb2lzXSA9IFN0cmluZyhzZWd1bmRvcykucGFkU3RhcnQoMiwgJzAnKS5zcGxpdCgnICcpO1xyXG5cclxuXHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgICAgICA8c3Bhbj57bWludXRvVW19PC9zcGFuPlxyXG4gICAgICAgICAgICAgICAgPHNwYW4+e21pbnV0b0RvaXN9PC9zcGFuPlxyXG4gICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgPHNwYW4+Ojwvc3Bhbj5cclxuICAgICAgICAgICAgPGRpdj5cclxuICAgICAgICAgICAgICAgIDxzcGFuPntzZWd1bmRvVW19PC9zcGFuPlxyXG4gICAgICAgICAgICAgICAgPHNwYW4+e3NlZ3VuZG9Eb2lzfTwvc3Bhbj5cclxuICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgPC9kaXY+XHJcbiAgICApO1xyXG59Il0sIm5hbWVzIjpbInVzZUVmZmVjdCIsInVzZVN0YXRlIiwiQ3Jvbm9tZXRybyIsInRlbXBvIiwic2V0VGVtcG8iLCJzZWd1bmRvcyIsIm1pbnV0b3MiLCJNYXRoIiwiZmxvb3IiLCJzZXRUaW1lb3V0IiwibWludXRvVW0iLCJtaW51dG9Eb2lzIiwiU3RyaW5nIiwicGFkU3RhcnQiLCJzcGxpdCIsInNlZ3VuZG9VbSIsInNlZ3VuZG9Eb2lzIiwiZGl2Iiwic3BhbiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/components/Cronometro.tsx\n");
+
+/***/ }),
+
+/***/ "./src/components/Menu.tsx":
+/*!*********************************!*\
+  !*** ./src/components/Menu.tsx ***!
+  \*********************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"Menu\": () => (/* binding */ Menu)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n\nfunction Menu() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        children: /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h1\", {\n            children: \"Menu\"\n        }, void 0, false, {\n            fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\components\\\\Menu.tsx\",\n            lineNumber: 4,\n            columnNumber: 13\n        }, this)\n    }, void 0, false, {\n        fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\components\\\\Menu.tsx\",\n        lineNumber: 3,\n        columnNumber: 9\n    }, this);\n}\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvY29tcG9uZW50cy9NZW51LnRzeC5qcyIsIm1hcHBpbmdzIjoiOzs7Ozs7QUFBQTtBQUFPLFNBQVNBLElBQUksR0FBRztJQUNuQixxQkFDSSw4REFBQ0MsS0FBRztrQkFDQSw0RUFBQ0MsSUFBRTtzQkFBQyxNQUFJOzs7OztnQkFBSzs7Ozs7WUFDWCxDQUNSO0NBQ0wiLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9mcm9udGVuZC8uL3NyYy9jb21wb25lbnRzL01lbnUudHN4P2JkYzAiXSwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGZ1bmN0aW9uIE1lbnUoKSB7XHJcbiAgICByZXR1cm4gKFxyXG4gICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgIDxoMT5NZW51PC9oMT5cclxuICAgICAgICA8L2Rpdj5cclxuICAgICk7XHJcbn0iXSwibmFtZXMiOlsiTWVudSIsImRpdiIsImgxIl0sInNvdXJjZVJvb3QiOiIifQ==\n//# sourceURL=webpack-internal:///./src/components/Menu.tsx\n");
+
+/***/ }),
+
+/***/ "./src/pages/index.tsx":
+/*!*****************************!*\
+  !*** ./src/pages/index.tsx ***!
+  \*****************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (/* binding */ Home)\n/* harmony export */ });\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react/jsx-dev-runtime */ \"react/jsx-dev-runtime\");\n/* harmony import */ var react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var _components_Cronometro__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Cronometro */ \"./src/components/Cronometro.tsx\");\n/* harmony import */ var _components_Menu__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../components/Menu */ \"./src/components/Menu.tsx\");\n\n\n\nfunction Home() {\n    return /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"div\", {\n        className: \"container\",\n        children: [\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Menu__WEBPACK_IMPORTED_MODULE_2__.Menu, {}, void 0, false, {\n                fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\pages\\\\index.tsx\",\n                lineNumber: 7,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(\"h2\", {\n                children: \"Cron\\xf4metro\"\n            }, void 0, false, {\n                fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\pages\\\\index.tsx\",\n                lineNumber: 8,\n                columnNumber: 7\n            }, this),\n            /*#__PURE__*/ (0,react_jsx_dev_runtime__WEBPACK_IMPORTED_MODULE_0__.jsxDEV)(_components_Cronometro__WEBPACK_IMPORTED_MODULE_1__.Cronometro, {}, void 0, false, {\n                fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\pages\\\\index.tsx\",\n                lineNumber: 9,\n                columnNumber: 7\n            }, this)\n        ]\n    }, void 0, true, {\n        fileName: \"C:\\\\Projetos\\\\banco\\\\frontend\\\\src\\\\pages\\\\index.tsx\",\n        lineNumber: 6,\n        columnNumber: 5\n    }, this);\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiLi9zcmMvcGFnZXMvaW5kZXgudHN4LmpzIiwibWFwcGluZ3MiOiI7Ozs7Ozs7O0FBQUE7QUFBc0Q7QUFDZDtBQUV6QixTQUFTRSxJQUFJLEdBQUc7SUFDN0IscUJBQ0UsOERBQUNDLEtBQUc7UUFBQ0MsU0FBUyxFQUFDLFdBQVc7OzBCQUN4Qiw4REFBQ0gsa0RBQUk7Ozs7b0JBQUc7MEJBQ1IsOERBQUNJLElBQUU7MEJBQUMsZUFBVTs7Ozs7b0JBQUs7MEJBQ25CLDhEQUFDTCw4REFBVTs7OztvQkFBRzs7Ozs7O1lBQ1YsQ0FDUDtDQUNGIiwic291cmNlcyI6WyJ3ZWJwYWNrOi8vZnJvbnRlbmQvLi9zcmMvcGFnZXMvaW5kZXgudHN4PzE5YTAiXSwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgQ3Jvbm9tZXRybyB9IGZyb20gXCIuLi9jb21wb25lbnRzL0Nyb25vbWV0cm9cIjtcbmltcG9ydCB7TWVudX0gZnJvbSBcIi4uL2NvbXBvbmVudHMvTWVudVwiO1xuXG5leHBvcnQgZGVmYXVsdCBmdW5jdGlvbiBIb21lKCkge1xuICByZXR1cm4gKFxuICAgIDxkaXYgY2xhc3NOYW1lPVwiY29udGFpbmVyXCI+XG4gICAgICA8TWVudSAvPlxuICAgICAgPGgyPkNyb27DtG1ldHJvPC9oMj5cbiAgICAgIDxDcm9ub21ldHJvIC8+XG4gICAgPC9kaXY+XG4gIClcbn1cbiJdLCJuYW1lcyI6WyJDcm9ub21ldHJvIiwiTWVudSIsIkhvbWUiLCJkaXYiLCJjbGFzc05hbWUiLCJoMiJdLCJzb3VyY2VSb290IjoiIn0=\n//# sourceURL=webpack-internal:///./src/pages/index.tsx\n");
+
+/***/ }),
+
+/***/ "react":
+/*!************************!*\
+  !*** external "react" ***!
+  \************************/
+/***/ ((module) => {
+
+module.exports = require("react");
+
+/***/ }),
+
+/***/ "react/jsx-dev-runtime":
+/*!****************************************!*\
+  !*** external "react/jsx-dev-runtime" ***!
+  \****************************************/
+/***/ ((module) => {
+
+module.exports = require("react/jsx-dev-runtime");
+
+/***/ })
+
+};
+;
+
+// load runtime
+var __webpack_require__ = require("../webpack-runtime.js");
+__webpack_require__.C(exports);
+var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
+var __webpack_exports__ = (__webpack_exec__("./src/pages/index.tsx"));
+module.exports = __webpack_exports__;
+
+})();
